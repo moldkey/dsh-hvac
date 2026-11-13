@@ -1,0 +1,33 @@
+{
+  "name": "dsh-hvac",
+  "version": "0.1.0",
+  "description": "暖通风管选型与冷负荷估算：风量/风速算管径，面积/保温估负荷与匹数",
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "hvac",
+    "暖通",
+    "duct",
+    "cooling load"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moldkey/dsh-hvac.git"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "dsh": ">=0.2.0-rc.2"
+  }
+}
